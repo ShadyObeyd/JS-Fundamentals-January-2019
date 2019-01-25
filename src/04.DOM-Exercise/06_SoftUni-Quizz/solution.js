@@ -59,9 +59,9 @@ function solve() {
             } else if(buttonIndex === 2){
                 let result = document.getElementById('result');
                 if(answerCounter === 3){
-                    result.append('You are recognized as top SoftUni fan!');
+                    result.textContent = 'You are recognized as top SoftUni fan!';
                 } else {
-                    result.append(`You have ${answerCounter} right answers`);
+                    result.textContent = `You have ${answerCounter} right answers`;
                 }
             }
 
